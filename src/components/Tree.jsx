@@ -4,7 +4,7 @@ import Header from "../parts/Header";
 import Links from "../parts/Links";
 
 const Tree = () => {
-  const imgURL = "src/img/dp.jpeg"; //ENTER YOUR IMG URL HERE
+  const imgURL = "./userIMG/dp.jpeg"; //ENTER YOUR IMG URL HERE
   const name = "Rinkit Adhana"; //ENTER YOUR FULL NAME HERE
   const bio =
     "Full Stack Developer and Freelancer who loves to build and ship stuffs.."; //ENTER YOUR BIO HERE
