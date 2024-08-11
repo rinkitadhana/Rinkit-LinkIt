@@ -11,7 +11,7 @@ const Header = (props) => {
         </div>
         <div className=" flex flex-col items-center gap-1.5">
           <div className=" text-xl font-bold text-gray-700">{props.name}</div>
-          <div className=" text-gray-500 font-medium md:px-0 px-2 text-justify md:text-center">
+          <div className="  md:text-base tracking-tight text-sm px-4 text-gray-500 font-medium md:px-0 text-center md:text-center">
             {props.bio}
           </div>
         </div>
