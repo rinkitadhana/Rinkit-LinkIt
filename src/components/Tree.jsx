@@ -4,10 +4,11 @@ import Header from "../parts/Header";
 import Links from "../parts/Links";
 
 const Tree = () => {
-  const imgURL =
-    "https://media.licdn.com/dms/image/v2/D4E0BAQG-i2j7Q2WFIA/company-logo_200_200/company-logo_200_200/0/1694593112031/img_logo?e=2147483647&v=beta&t=EPGRytuEOVPFLctZkKdIxLl_1W7QhVFrLeS-GwWjJj0"; //ENTER YOUR IMG URL HERE
-  const name = "User Name"; //ENTER YOUR FULL NAME HERE
-  const bio = "This is your bio section"; //ENTER YOUR BIO HERE
+  const imgURL = "src/img/dp.jpeg"; //ENTER YOUR IMG URL HERE
+  const name = "Rinkit Adhana"; //ENTER YOUR FULL NAME HERE
+  const bio =
+    "Full Stack Developer and Freelancer who loves to build and ship stuffs.."; //ENTER YOUR BIO HERE
+
   return (
     <div className="">
       <div className="flex justify-center md:flex-row flex-col  ">
@@ -27,9 +28,15 @@ const Tree = () => {
           <Header img={imgURL} name={name} bio={bio} />
 
           <div>
-            <Links name="Link" url="" />
-            <Links name="Link" url="" />
-            <Links name="Link" url="" />
+            <Links name="Portfolio" url="https://therinkit.vercel.app" />
+            <Links name="Twitter" url="https://x.com/rnkktt" />
+            <Links name="Github" url="https://github.com/rinkitadhana" />
+            <Links
+              name="Linked In"
+              url="https://www.linkedin.com/in/rinkitadhana/"
+            />
+            <Links name="Leetcode" url="https://leetcode.com/u/therinkit/" />
+            <Links name="Instagram" url="https://www.instagram.com/rnkktt/" />
           </div>
           <Footer />
         </div>
