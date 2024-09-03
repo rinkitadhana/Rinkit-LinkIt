@@ -1,7 +1,9 @@
+import { FaGithub } from "react-icons/fa";
 import Coffee from "../parts/BuyMeACofee";
 import Footer from "../parts/Footer";
 import Header from "../parts/Header";
 import Links from "../parts/Links";
+import { FiGithub } from "react-icons/fi";
 
 const Tree = () => {
   const imgURL = "./userIMG/dp.jpeg"; //ENTER YOUR IMG URL HERE
@@ -13,14 +15,13 @@ const Tree = () => {
     <div className="">
       <div className="flex justify-center md:flex-row flex-col  ">
         <div className=" md:w-2/5 ">
-          <div className="flex flex-row justify-between mt-6 px-2">
+          <div className="flex flex-row justify-between items-center mt-6 px-2">
             <div className=" font-bold text-green-500 text-3xl  font-bricolage ">
               <span className=" text-gray-600">Link</span>It
             </div>
             <a href="https://github.com/rinkitadhana/LinkFree" target=" _blank">
-              <div className="flex flex-row gap-1 p-2 bg-black/50 w-fit items-center rounded-md text-sm font-semibold text-white  hover:bg-black/60 ">
-                <i className="fa-solid fa-star text-yellow-400"></i>
-                <div>on Github</div>
+              <div className="flex flex-row gap-1 p-2 bg-black/70 w-fit items-center rounded-full text-2xl text-white font-semibold hover:bg-white hover:text-black shadow-xl border-2 ">
+                <FiGithub />
               </div>
             </a>
           </div>
