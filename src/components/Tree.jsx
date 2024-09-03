@@ -9,7 +9,7 @@ const Tree = () => {
   const imgURL = "./userIMG/dp.jpeg"; //ENTER YOUR IMG URL HERE
   const name = "Rinkit Adhana"; //ENTER YOUR FULL NAME HERE
   const bio =
-    "Full Stack Developer and Freelancer who loves to build and ship stuffs.."; //ENTER YOUR BIO HERE
+    "Full-Stack Developer and Freelancer, always building and learning.."; //ENTER YOUR BIO HERE
 
   return (
     <div className="">
