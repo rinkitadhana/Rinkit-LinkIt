@@ -11,7 +11,7 @@ const Tree = () => {
 
   return (
     <motion.div
-      initial={{ opacity: 1, y: -1000 }} // Start with 0 opacity and slightly above the final position
+      initial={{ opacity: 1, y: -200 }} // Start with 0 opacity and slightly above the final position
       animate={{ opacity: 1, y: 0 }} // Fade in and move down to the original position
       transition={{ duration: 1 }} // Duration of the animation
     >
