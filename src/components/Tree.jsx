@@ -1,9 +1,7 @@
-import { FaGithub } from "react-icons/fa";
-import Coffee from "../parts/BuyMeACofee";
 import Footer from "../parts/Footer";
 import Header from "../parts/Header";
 import Links from "../parts/Links";
-import { FiGithub } from "react-icons/fi";
+import { motion } from "framer-motion";
 
 const Tree = () => {
   const imgURL = "./userIMG/dp.jpeg"; //ENTER YOUR IMG URL HERE
@@ -12,18 +10,17 @@ const Tree = () => {
     "Full-Stack Developer and Freelancer, always building and learning.."; //ENTER YOUR BIO HERE
 
   return (
-    <div className="">
+    <motion.div
+      initial={{ opacity: 1, y: -1000 }} // Start with 0 opacity and slightly above the final position
+      animate={{ opacity: 1, y: 0 }} // Fade in and move down to the original position
+      transition={{ duration: 1 }} // Duration of the animation
+    >
       <div className="flex justify-center md:flex-row flex-col  ">
         <div className=" md:w-2/5 ">
           <div className="flex flex-row justify-between items-center mt-6 px-2">
             <div className=" font-bold text-green-500 text-3xl  font-bricolage ">
               <span className=" text-gray-600">Link</span>It
             </div>
-            <a href="https://github.com/rinkitadhana/LinkFree" target=" _blank">
-              <div className="flex flex-row gap-1 p-2 bg-black/70 w-fit items-center rounded-full text-2xl text-white font-semibold hover:bg-white hover:text-black shadow-xl border-2 ">
-                <FiGithub />
-              </div>
-            </a>
           </div>
 
           <Header img={imgURL} name={name} bio={bio} />
@@ -41,9 +38,8 @@ const Tree = () => {
           </div>
           <Footer />
         </div>
-        <Coffee />
       </div>
-    </div>
+    </motion.div>
   );
 };
 
