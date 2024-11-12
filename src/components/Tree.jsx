@@ -1,13 +1,13 @@
-import Footer from "../parts/Footer";
-import Header from "../parts/Header";
-import Links from "../parts/Links";
-import { motion } from "framer-motion";
+import Footer from "../parts/Footer"
+import Header from "../parts/Header"
+import Links from "../parts/Links"
+import { motion } from "framer-motion"
 
 const Tree = () => {
-  const imgURL = "./userIMG/dp.jpeg"; //ENTER YOUR IMG URL HERE
-  const name = "Rinkit Adhana"; //ENTER YOUR FULL NAME HERE
+  const imgURL = "./userIMG/dp.jpeg" //ENTER YOUR IMG URL HERE
+  const name = "Rinkit Adhana" //ENTER YOUR FULL NAME HERE
   const bio =
-    "Full-Stack Developer and Freelancer, always building and learning.."; //ENTER YOUR BIO HERE
+    "Full-Stack Developer and Freelancer, always building and learning.." //ENTER YOUR BIO HERE
 
   return (
     <motion.div
@@ -27,7 +27,7 @@ const Tree = () => {
 
           <div>
             <Links name="Portfolio" url="https://therinkit.vercel.app" />
-            <Links name="Twitter" url="https://x.com/rnkktt" />
+            <Links name="Twitter" url="https://x.com/damnGruz" />
             <Links name="Github" url="https://github.com/rinkitadhana" />
             <Links
               name="Linked In"
@@ -40,7 +40,7 @@ const Tree = () => {
         </div>
       </div>
     </motion.div>
-  );
-};
+  )
+}
 
-export default Tree;
+export default Tree
